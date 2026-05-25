@@ -1,0 +1,14 @@
+{
+  "dependencies": [
+    "langgraph",
+    "langchain",
+    "langchain-openai",
+    "langchain-core",
+    "pydantic",
+    "python-dotenv"
+  ],
+  "graphs": {
+    "city_brief_team": "./studio_app/graph.py:app"
+  },
+  "env": ".env"
+}

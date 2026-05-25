@@ -1,1 +1,12 @@
 .env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# LangGraph dev server runtime
+.langgraph_api/
+
+# uv / venv
+.venv/
